@@ -19,6 +19,7 @@ Built with LangChain, Chroma, HuggingFace Embeddings, and Groq.
 
 ## 🗂️ Project Structure
 
+```
 rag_langchain_python_project/
 ├── code/
 │   ├── create_database.py   # Builds the vector database
@@ -30,6 +31,7 @@ rag_langchain_python_project/
 ├── .gitignore               # Files to exclude from Git
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file
+```
 
 ---
 
@@ -122,5 +124,5 @@ python code/query_data.py "How did Alice fall into Wonderland?"
 
 ## 👤 Author
 
-Made by **your name** — Data Science & AI Engineering Student
+Made by **Kaoutar Bouasla** — Data Science & AI Engineering Student
 
