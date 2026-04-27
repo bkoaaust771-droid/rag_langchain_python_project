@@ -42,7 +42,7 @@ def main():
     results = db.similarity_search_with_relevance_scores(args.query_text, k=3)
 
     #quality Check
-    if len(results) == 0 or results[0][1] < 0.3:
+    if len(results) == 0 or results[0][1] < 0.5:
         print("No good match found.")
         return
 
